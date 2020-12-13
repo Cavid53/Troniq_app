@@ -1,0 +1,19 @@
+.navbar-area {
+}
+.navbar-main {
+  margin-top: 50px;
+}
+.navbar-center {
+  margin-left: 150px;
+}
+.navItemSearch {
+  margin-left: 200px;
+  margin-top: 9px;
+}
+.icon-navbar {
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-item {
+  font-size: 20px;
+}
