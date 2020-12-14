@@ -1,0 +1,45 @@
+.write-our {
+  padding: 50px 50px;
+}
+.img {
+}
+
+.img img {
+  border-radius: 40px;
+}
+
+.text {
+  padding-top: 50px;
+}
+
+.text p {
+  font-size: 30px;
+}
+.icon-text {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  background-color: blue;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+.icon-text p {
+  display: inline-block;
+  line-height: 55px;
+  margin-left: 25px;
+  font-size: 23px;
+  color: white;
+}
+
+.icon-text .font-icon {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 1s;
+}
+.icon-text .font-icon:hover{
+    transition: all 1s;
+    color: white;
+}
