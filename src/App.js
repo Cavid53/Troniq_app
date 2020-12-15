@@ -1,5 +1,6 @@
 import "./App.css";
 import AppNavbar from "./components/Navbar";
+import Services from "./components/Services";
 import Slider from "./components/Slider";
 import WriteOur from "./components/WriteOur";
 function App() {
@@ -10,7 +11,8 @@ function App() {
       </header>
       <main>
         <Slider></Slider>
-        <WriteOur/>
+        <WriteOur />
+        <Services/>
       </main>
     </div>
   );
