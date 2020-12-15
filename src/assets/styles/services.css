@@ -1,0 +1,47 @@
+.datas-right {
+  padding-left: 230px;
+}
+.services {
+  padding-top: 100px;
+  background-color: blanchedalmond;
+  margin-bottom: 30px;
+}
+
+.datas-right .icon {
+  border: 3px solid blue;
+  border-radius: 50%;
+  padding: 12px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.datas-right .icon:hover {
+  border: 3px solid red;
+  transition: all 1s;
+}
+
+.datas-right .title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.datas-right .desc {
+  padding-bottom: 30px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.image-left {
+  padding-top: 95px;
+}
+
+/* responsive */
+
+@media screen and (min-width: 500px) {
+  .datas-right {
+    padding-left: 130px;
+  }
+  .datas-right .data {
+    margin-top: 30px;
+  }
+}
