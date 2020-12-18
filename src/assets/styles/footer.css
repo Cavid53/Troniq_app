@@ -1,0 +1,84 @@
+.footer-area {
+  background-color: #443f3e;
+  width: 100%;
+  height: 500px;
+}
+
+.footer-area .icon-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 150px;
+}
+
+.footer-area .icon-footer img {
+  width: 100%;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.mail {
+}
+.mail .mail-icon {
+  margin-left: 35px;
+  font-size: 30px;
+  color: white;
+}
+
+.mail .mail-value {
+  color: white;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+
+.phone {
+}
+
+.phone .phone-icon {
+  margin-left: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.phone .phone-value {
+  color: white;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+
+.location {
+}
+.location .location-icon {
+  margin-left: 33px;
+  font-size: 30px;
+  color: white;
+}
+
+.location .location-value {
+  color: white;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+
+.socials{
+    margin-top: 50px;
+    margin-right:100px;
+}
+.socials ul{
+
+    text-decoration: none;
+}
+.socials ul li{
+    display: inline-block;
+    margin-left: 90px;
+    color: white;
+    font-size: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Image from "../assets/images/test/2.jpg";
-import "../assets/styles/services.css";
+import Image from "../../assets/images/test/2.jpg";
+import "../../assets/styles/services.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPersonBooth,

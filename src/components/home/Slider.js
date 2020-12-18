@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import image from "../assets/images/slider/1.jpg";
-import "../assets/styles/slider.css";
+import image from "../../assets/images/slider/1.jpg";
+import "../../assets/styles/slider.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowAltCircleRight,
