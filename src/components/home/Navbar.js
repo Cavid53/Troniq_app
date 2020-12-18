@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import "../assets/styles/navbar.css";
+import "../../assets/styles/navbar.css";
+import Icon from "../../assets/icons/icon1.png";
 import {
   Collapse,
   Navbar,
@@ -20,7 +21,9 @@ function AppNavbar() {
     <div className="navbar-area navbar-main">
       <Container>
         <Navbar light expand="md">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+          <NavbarBrand href="/">
+            <img src={Icon} width="60px" alt="icon" />
+          </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto navbar-center" navbar>

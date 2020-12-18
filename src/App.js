@@ -1,8 +1,9 @@
 import "./App.css";
-import AppNavbar from "./components/Navbar";
-import Services from "./components/Services";
-import Slider from "./components/Slider";
-import WriteOur from "./components/WriteOur";
+import AppNavbar from "./components/home/Navbar";
+import Services from "./components/home/Services";
+import Slider from "./components/home/Slider";
+import WriteOur from "./components/home/WriteOur";
+import AppFooter from "./components/home/Footer";
 function App() {
   return (
     <div className="App">
@@ -12,8 +13,11 @@ function App() {
       <main>
         <Slider></Slider>
         <WriteOur />
-        <Services/>
+        <Services />
       </main>
+      <footer>
+       <AppFooter/>
+      </footer>
     </div>
   );
 }

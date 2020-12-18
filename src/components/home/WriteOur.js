@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "../assets/images/slider/IMG_8702.jpg";
-import "../assets/styles/writeOur.css";
+import Image from "../../assets/images/slider/IMG_8702.jpg";
+import "../../assets/styles/writeOur.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
 
