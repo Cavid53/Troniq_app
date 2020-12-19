@@ -28,7 +28,7 @@ function AppNavbar() {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto navbar-center" navbar>
               <NavItem className="nav-item">
-                <NavLink href="/components/">Troniq App </NavLink>
+                <NavLink href="/home">Troniq App </NavLink>
               </NavItem>
               <NavItem className="nav-item">
                 <NavLink href="https://github.com/reactstrap/reactstrap">
@@ -46,9 +46,7 @@ function AppNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem className="nav-item">
-                <NavLink href="https://github.com/reactstrap/reactstrap">
-                  Əlaqə
-                </NavLink>
+                <NavLink href="/contact">Əlaqə</NavLink>
               </NavItem>
               <NavItem className="navItemSearch nav-item">
                 <FontAwesomeIcon
