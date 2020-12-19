@@ -39,7 +39,20 @@
   cursor: pointer;
   transition: all 1s;
 }
-.icon-text .font-icon:hover{
-    transition: all 1s;
-    color: white;
+.icon-text .font-icon:hover {
+  transition: all 1s;
+  color: white;
+}
+
+/* responsive */
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .img {
+    margin-top: 40px;
+  }
+
+  .datas-right {
+    padding-left: 35px;
+    margin-top: 40px;
+  }
 }
